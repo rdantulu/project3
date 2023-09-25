@@ -1,0 +1,47 @@
+/* Add your CSS styles here */
+.datepicker-header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.prev-month,
+.next-month {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.current-month {
+    font-weight: bold;
+}
+
+.datepicker-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datepicker-table th {
+    text-align: center;
+    background-color: #ddd;
+}
+
+.datepicker-table th,
+.datepicker-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.disabled-day {
+    color: #aaa;
+}
+
+.selectable-day {
+    cursor: pointer;
+    color: #333;
+}
+
+.selectable-day:hover {
+    background-color: #f0f0f0;
+}
